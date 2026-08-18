@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AlertTriangle, ArrowRight, Bus, CheckCircle, MapPin, RefreshCw, Train } from 'lucide-react';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://nammaroute-backend-da06.onrender.com';
 
 const STATIONS = [
   { id: 'ST_MAJ', name: 'Majestic (Kempegowda Hub)', type: 'Interchange_Hub' },
